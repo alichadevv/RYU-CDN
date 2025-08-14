@@ -205,7 +205,7 @@
     function shareFile(url) {  
         if (navigator.share) {  
             navigator.share({  
-                title: 'Shared file from AR CDN',  
+                title: 'Shared file from RYU CDN',  
                 url: url  
             }).then(() => {  
                 showToast('File shared successfully!');  
