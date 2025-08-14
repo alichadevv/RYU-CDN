@@ -9,28 +9,28 @@
     
     <!-- Meta Content -->
     <meta name="description" content="Upload and manage your files easily with AR Hosting. Enjoy a seamless file management experience.">
-    <meta name="keywords" content="file upload, AR Hosting, AR CDN, cloud storage, file management, online file storage, secure file upload, free file hosting, unlimited file upload, CDN free, fast file sharing, upload file gratis, hosting gratis, file storage service">
-    <meta name="author" content="Arifzyn">
+    <meta name="keywords" content="file upload, AR Hosting, RYU CDN, cloud storage, file management, online file storage, secure file upload, free file hosting, unlimited file upload, CDN free, fast file sharing, upload file gratis, hosting gratis, file storage service">
+    <meta name="author" content="RyuIzumi">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="File Upload - AR Hosting">
     <meta property="og:description" content="Upload and manage your files easily with AR Hosting.">
-    <meta property="og:image" content="https://cdn.arifzyn.site/images/logo.jpg"> 
-    <meta property="og:url" content="https://cdn.arifzyn.site">
+    <meta property="og:image" content="https://cdn.xydlanlux.biz.id/images/logo.jpg"> 
+    <meta property="og:url" content="https://cdn.xydlanlux.biz.id">
     <meta property="og:type" content="website">
     
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="File Upload - AR Hosting">
     <meta name="twitter:description" content="Upload and manage your files easily with AR Hosting.">
-    <meta name="twitter:image" content="https://cdn.arifzyn.site/images/logo.jpg">
+    <meta name="twitter:image" content="https://cdn.xydlanlux.biz.id/images/logo.jpg">
      
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/png" href="https://cdn.arifzyn.site/images/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/svg+xml" href="https://cdn.arifzyn.site/images/favicon.svg">
-    <link rel="shortcut icon" href="https://cdn.arifzyn.site/images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.arifzyn.site/images/apple-touch-icon.png">
-    <link rel="manifest" href="https://cdn.arifzyn.site/images/site.webmanifest">
+    <link rel="icon" type="image/png" href="https://cdn.xydlanlux.biz.id/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.xydlanlux.biz.id/images/favicon.svg">
+    <link rel="shortcut icon" href="https://cdn.xydlanlux.biz.id/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.xydlanlux.biz.id/images/apple-touch-icon.png">
+    <link rel="manifest" href="https://cdn.xydlanlux.biz.id/images/site.webmanifest">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/styles.css"> 
