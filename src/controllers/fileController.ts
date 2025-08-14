@@ -10,7 +10,7 @@ export const handleUpload = (req: Request, res: Response): void => {
     (!req.files || (Array.isArray(req.files) && req.files.length === 0))
   ) {
     return res.status(400).render("error", {
-      title: "Error | AR CDN",
+      title: "Error | RYU CDN",
       message: "No file uploaded",
       statusCode: 400,
     });
@@ -32,7 +32,7 @@ export const handleUpload = (req: Request, res: Response): void => {
 
   // Should never reach here, but just in case
   res.status(500).render("error", {
-    title: "Error | AR CDN",
+    title: "Error | RYU CDN",
     message: "Something went wrong during upload",
     statusCode: 500,
   });
@@ -46,13 +46,13 @@ export const listFiles = (req: Request, res: Response): void => {
     const files = fileService.getFileList();
 
     res.render("files", {
-      title: "Files | AR CDN",
+      title: "Files | RYU CDN",
       files,
       activeNav: "files",
     });
   } catch (error) {
     res.status(500).render("error", {
-      title: "Error | AR CDN",
+      title: "Error | RYU CDN",
       message: "Failed to fetch file list",
       statusCode: 500,
     });
@@ -71,7 +71,7 @@ export const deleteFile = (req: Request, res: Response): void => {
     res.redirect("/list-files");
   } else {
     res.status(404).render("error", {
-      title: "Error | AR CDN",
+      title: "Error | RYU CDN",
       message: "File not found or could not be deleted",
       statusCode: 404,
     });
@@ -98,7 +98,7 @@ export const apiUpload = (req: Request, res: Response): void => {
   if (req.file) {
     res.json({
       status: 200,
-      creator: "Arifzyn.",
+      creator: "RyuIzumi.",
       data: {
         originalname: req.file.originalname,
         filename: req.file.filename,
@@ -122,7 +122,7 @@ export const apiUpload = (req: Request, res: Response): void => {
 
     res.json({
       status: 200,
-      creator: "Arifzyn.",
+      creator: "RyuIzumi.",
       data: filesData,
     });
     return;
@@ -152,7 +152,7 @@ export const apiListFiles = (req: Request, res: Response): void => {
     res.status(200).json({
       status: 200,
       message: "File list fetched successfully",
-      creator: "Arifzyn.",
+      creator: "RyuIzumi.",
       data: filesWithUrls,
     });
   } catch (error) {
@@ -177,14 +177,14 @@ export const apiDeleteFile = (req: Request, res: Response): void => {
     res.status(200).json({
       status: 200,
       message: "File deleted successfully",
-      creator: "Arifzyn.",
+      creator: "RyuIzumi.",
       data: { filename },
     });
   } else {
     res.status(404).json({
       status: 404,
       message: "File not found or could not be deleted",
-      creator: "Arifzyn.",
+      creator: "RyuIzumi.",
     });
   }
 };

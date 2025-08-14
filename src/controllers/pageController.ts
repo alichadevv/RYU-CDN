@@ -8,7 +8,7 @@ import { fileService } from "../services/fileService";
  */
 export const getHome = (req: Request, res: Response): void => {
   res.render("index", {
-    title: "Home | AR CDN",
+    title: "Home | RYU CDN",
     activeNav: "home",
   });
 };
@@ -18,7 +18,7 @@ export const getHome = (req: Request, res: Response): void => {
  */
 export const getAbout = (req: Request, res: Response): void => {
   res.render("about", {
-    title: "About | AR CDN",
+    title: "About | RYU CDN",
     activeNav: "about",
   });
 };
@@ -28,7 +28,7 @@ export const getAbout = (req: Request, res: Response): void => {
  */
 export const getContact = (req: Request, res: Response): void => {
   res.render("contact", {
-    title: "Contact | AR CDN",
+    title: "Contact | RYU CDN",
     activeNav: "contact",
   });
 };
@@ -38,7 +38,7 @@ export const getContact = (req: Request, res: Response): void => {
  */
 export const getDocs = (req: Request, res: Response): void => {
   res.render("docs", {
-    title: "Docs | AR CDN",
+    title: "Docs | RYU CDN",
     activeNav: "docs",
     apiBaseUrl: `${req.protocol}://${req.get("host")}`,
   });
@@ -59,7 +59,7 @@ export const getFileResult = (req: Request, res: Response): void => {
     const fileInfo = fileService.getFileInfo(req, filename);
 
     res.render("result", {
-      title: "File Result | AR CDN",
+      title: "File Result | RYU CDN",
       fileUrl: fileInfo.url,
       filename: fileInfo.filename,
       originalFilename: fileInfo.originalname || filename,
@@ -70,7 +70,7 @@ export const getFileResult = (req: Request, res: Response): void => {
     });
   } else {
     res.status(404).render("error", {
-      title: "404 - File Not Found | AR CDN",
+      title: "404 - File Not Found | RYU CDN",
       message: "The requested file could not be found.",
       statusCode: 404,
     });
